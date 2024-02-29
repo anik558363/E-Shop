@@ -11,5 +11,50 @@
     margin: 0 auto;
 }
 
+.common-btn{
+    padding: 10px 12px;
+    background-color: #e893cf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
 
 /* nav styles */
+
+header{
+    background-color: #9376e0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+
+.nav-icon{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-img-container img{
+   width: 60px;
+}
+
+.nav-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

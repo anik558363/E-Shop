@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+    .nav{
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    .nav-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
