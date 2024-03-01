@@ -13,10 +13,8 @@
 
 .common-btn{
     padding: 10px 12px;
-    background-color: #e893cf;
-    border: none;
     border-radius: 5px;
-    color: white;
+   border: 1px solid violet;
 }
 
 /* nav styles */
@@ -57,6 +55,14 @@ header{
     justify-content: center;
     align-items: center;
 
+}
+
+.nav-btn{
+    padding: 10px 12px;
+    background-color: #e893cf;
+    border: none;
+    border-radius: 5px;
+    color: white;
 }
 
 /* banner styes */
@@ -114,11 +120,6 @@ header{
     color: rgb(17, 177, 221);
 }
 
-.banner-btn{
-    padding: 10px 12px;
-    border-radius: 5px;
-   border: 1px solid violet;
-}
 
 .banner-img-container{
     width: 50%;
@@ -129,4 +130,51 @@ header{
     height: 100%;
     border-radius: 10px;
 }
+
+/*  */
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-card{
+    background-color: #e6e9eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.img-icon-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.img-icon-container img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img-icon-container .product-icon{
+    font-size: 25px;
+}
+
+.img-icon-container .common-btn{
+    width: 20%;
+}
+
 
