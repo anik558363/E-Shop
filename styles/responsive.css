@@ -27,6 +27,9 @@
     .product-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .img-background{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -57,5 +60,8 @@
     }
     .product-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .img-background{
+        grid-template-columns: repeat(3, 1fr);
     }
 }

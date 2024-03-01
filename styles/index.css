@@ -16,6 +16,10 @@
     border-radius: 5px;
    border: 1px solid violet;
 }
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
 
 /* nav styles */
 
@@ -131,7 +135,7 @@ header{
     border-radius: 10px;
 }
 
-/*  */
+/* product section*/
 
 .product-container{
     display: grid;
@@ -177,4 +181,21 @@ header{
     width: 20%;
 }
 
+/* gallery-section */
+
+
+
+.gallery-img-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-background{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
 
