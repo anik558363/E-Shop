@@ -30,7 +30,19 @@
     .img-background{
         grid-template-columns: repeat(2, 1fr);
     }
+    .sponsors-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: end;
+        gap: 20px;
+        padding-left: 10%;
+    }
+    .footer p small{
+        flex-direction: column;
+    }
+
 }
+
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .max-width{
@@ -63,5 +75,13 @@
     }
     .img-background{
         grid-template-columns: repeat(3, 1fr);
+    }
+   
+    .sponsors-img-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: flex-end;
+        gap: 30px;
+        padding-left: 10%;
     }
 }

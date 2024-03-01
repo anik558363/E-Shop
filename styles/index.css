@@ -199,3 +199,50 @@ header{
     
 }
 
+
+
+/* sponsors */
+
+.sponsors{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.sponsors-img-container img{
+    width: 100px;
+}
+
+.youtube{
+    /* width: 10px; */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.sponsors-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer{
+    padding: 15px;
+    background-color: #e6e9eb;
+    margin-top: 25px;
+    padding: 30px;
+}
+.footer p small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer img{
+    width: 60px; 
+}
